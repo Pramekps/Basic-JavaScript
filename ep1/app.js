@@ -14,5 +14,11 @@ var x = 20
 {
     var x = 2
 }
-// let lotto_number = prompt("กรอกเลขที่ต้องการซื้อ")
-document.getElementById("result").innerHTML = Math.floor(Math.random()*100)
+let lotto_number = prompt("กรอกเลขที่ต้องการซื้อ")
+let random = document.getElementById("random").innerHTML = Math.floor(Math.random()*10)
+if (lotto_number == random){
+    document.getElementById("result").innerHTML = "คุณถูกรางวัล"
+}
+else{
+    document.getElementById("result").innerHTML = "คุณไม่ถูกรางวัล"
+}
