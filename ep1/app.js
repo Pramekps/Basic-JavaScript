@@ -14,5 +14,5 @@ var x = 20
 {
     var x = 2
 }
-let lotto_number = prompt("กรอกเลขที่ต้องการซื้อ")
+// let lotto_number = prompt("กรอกเลขที่ต้องการซื้อ")
 document.getElementById("result").innerHTML = Math.floor(Math.random()*100)
