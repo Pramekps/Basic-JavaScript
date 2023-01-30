@@ -1,0 +1,2 @@
+while(prompt("Exit") != "Exit"){
+}
